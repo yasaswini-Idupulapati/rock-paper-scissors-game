@@ -1,0 +1,61 @@
+html, body {
+padding: 0;
+margin: 0;
+font-family: Yatra One;
+background-color: rgb(241, 227, 230);
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+    row-gap: 35px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+
+}
+
+.rpsbutton {
+    border: 0ch;
+    background-color: rgb(129, 90, 129);
+    font-size: 14px;
+    color: white;
+    border-radius: 0px 60px 0px 60px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.377);
+}
+
+#score-card {
+    color: rgb(18, 143, 101);
+    font-style: oblique
+}
+
+#each-choices {
+    color: rgb(216, 106, 216);
+}
+
+#game-Statement {
+    margin-top: 20px;
+    color: rgb(129, 90, 129);
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+#endGameButton {
+    background-color:  rgb(18, 143, 101);
+    color: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 60px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.479);
+    border: 0ch;
+    font-size: 10px;
+}
